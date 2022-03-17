@@ -1,19 +1,3 @@
----
-
-layout: default
-name: Christian Surname
-location: "Somewhere"
-country: Nation
-email: "your.address@email.com"
-twitter: "@meontwitter"
-blog: "https://wordpress.com/"
-linkedin: "http://www.linkedin.com/"
-github: "https://github.com/"
-flickr: "https://www.flickr.com/"
-slideshare: "http://slideshare.net/"
-
----
-
 # About me 
 My name is Sardor Abdirayimov!
 

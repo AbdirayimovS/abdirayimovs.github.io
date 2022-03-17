@@ -1,9 +1,3 @@
-# About me 
-My name is Sardor Abdirayimov!
-
-Kaggle Notebook and Discussion expert!
-
-
 ---
 
 layout: default
@@ -20,6 +14,10 @@ slideshare: "http://slideshare.net/"
 
 ---
 
+# About me 
+My name is Sardor Abdirayimov!
+
+Kaggle Notebook and Discussion expert!
 
 <div><img src="https://i.postimg.cc/4xKGtgg0/new-suit-in-me.jpg" alt="drawing" width="200"/></div>
 

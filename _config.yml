@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: abdirayimovS
 github_username:  AbdirayimovS
 
-url: "https://<github-account-name>.github.io/<repository-name>"
+url: "https://<abdirayimovs>.github.io/"
 # Build settings
 theme: jekyll-theme-twenty
 plugins:

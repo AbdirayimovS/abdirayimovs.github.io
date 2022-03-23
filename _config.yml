@@ -8,6 +8,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://abdirayimovs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AbdirayimovS
 github_username:  AbdirayimovS
+telegram_username: Sardor2o18
+kaggle_username: sardorabdirayimov
+
 
 # Build settings
 theme: minima

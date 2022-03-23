@@ -1,19 +1,22 @@
 title: Abdirayimov Sardor
-email: abdirayimovsardor@gmail.com
+email: Cooming Soon
 description: the darkest nights produce the brightest stars
 baseurl: ""
-url: "https://abdirayimovs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://abdirayimovs.github.io/" 
 twitter_username: AbdirayimovS
 github_username:  AbdirayimovS
 linkedin_username: sardorabdirayimov
-
+kaggle_username: sardorabdirayimov
 
 
 show_excerpts: false
 
 
 header_pages:
+- home.html
 - about.html
+- projects.html
+- gallery.html
 
 
 # Build settings

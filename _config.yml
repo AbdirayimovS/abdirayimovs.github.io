@@ -5,11 +5,19 @@ baseurl: ""
 url: "https://abdirayimovs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AbdirayimovS
 github_username:  AbdirayimovS
-telegram_username: Sardor2o18
-kaggle_username: sardorabdirayimov
+linkedin_username: sardorabdirayimov
+
+
+
+show_excerpts: false
+
+
+header_pages:
+- about.html
 
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+ - jekyll-feed
+ - jekyll-seo-tag

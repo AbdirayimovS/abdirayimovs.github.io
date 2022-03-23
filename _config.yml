@@ -1,22 +1,24 @@
 title: Abdirayimov Sardor
-email: Cooming Soon
-description: the darkest nights produce the brightest stars
+email: sardor@gmail.com
+description: "The ability to ask the right question is more than half the battle of finding the answer. 
+- Thomas J.Watson"
 baseurl: ""
-url: "https://abdirayimovs.github.io/" 
+#url: "https://abdirayimovs.github.io/" 
 twitter_username: AbdirayimovS
 github_username:  AbdirayimovS
 linkedin_username: sardorabdirayimov
 kaggle_username: sardorabdirayimov
 
 
-show_excerpts: false
+show_excerpts: true
 
 
 header_pages:
 - home.html
 - about.html
 - projects.html
-- gallery.html
+- awards.html
+- memories.html
 
 
 # Build settings

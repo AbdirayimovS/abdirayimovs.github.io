@@ -1,0 +1,38 @@
+<!-- const fetch = require('node-fetch');
+
+async function fetchChannelPosts() {
+    const apiUrl = 'https://api.telegram.org/bot<Your_Bot_Token>/getUpdates';
+    try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        return data.result; // Filter or process messages as needed
+    } catch (error) {
+        console.error('Failed to fetch posts:', error);
+    }
+}
+
+// Endpoint setup and response to frontend omitted for brevity
+
+ -->
+
+
+ <!-- <section id="telegram-posts">
+    <h2>Latest Posts from My Telegram Channel</h2>
+    <ul id="posts-container"></ul>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('/path-to-your-api-endpoint')
+    .then(response => response.json())
+    .then(posts => {
+        const container = document.getElementById('posts-container');
+        posts.forEach(post => {
+            const listItem = document.createElement('li');
+            listItem.textContent = post.message; // Adjust depending on message structure
+            container.appendChild(listItem);
+        });
+    })
+    .catch(error => console.error('Error loading posts:', error));
+});
+</script> -->

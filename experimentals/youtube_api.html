@@ -1,0 +1,30 @@
+<!-- <section id="youtube-videos">
+    <h2>My Latest YouTube Videos</h2>
+    <div id="videos-container"></div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const apiKey = 'YOUR_API_KEY';
+    const channelId = 'YOUR_CHANNEL_ID';
+    const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=5`;
+
+    fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        const videos = data.items;
+        const container = document.getElementById('videos-container');
+        videos.forEach(video => {
+            const videoElement = document.createElement('div');
+            videoElement.innerHTML = `
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/${video.id.videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>${video.snippet.title}</p>
+                </div>
+            `;
+            container.appendChild(videoElement);
+        });
+    })
+    .catch(error => console.error('Error loading YouTube videos:', error));
+});
+</script> -->

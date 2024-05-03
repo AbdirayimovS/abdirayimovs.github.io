@@ -1,0 +1,24 @@
+<!-- <section id="github-activity">
+    <h2>My Recent GitHub Activity</h2>
+    <ul id="github-commits"></ul>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const username = 'YOUR_GITHUB_USERNAME';
+    const repo = 'YOUR_REPOSITORY_NAME';
+    const url = `https://api.github.com/repos/${username}/${repo}/commits`;
+
+    fetch(url)
+    .then(response => response.json())
+    .then(commits => {
+        const list = document.getElementById('github-commits');
+        commits.forEach(commit => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${commit.commit.author.name}: ${commit.commit.message} - ${commit.commit.author.date}`;
+            list.appendChild(listItem);
+        });
+    })
+    .catch(error => console.error('Error fetching GitHub commits:', error));
+});
+</script> -->

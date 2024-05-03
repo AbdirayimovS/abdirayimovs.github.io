@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-Time Clock</title>
+</head>
+<body>
+    <div id="real-time-clock"></div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString();
+            document.getElementById('real-time-clock').innerText = timeString;
+        }
+
+        setInterval(updateClock, 1000); // Update the time every second
+    </script>
+</body>
+</html>

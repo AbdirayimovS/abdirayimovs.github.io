@@ -1,0 +1,23 @@
+<!-- <section id="stackoverflow-content">
+    <h2>My Contributions to Stack Overflow</h2>
+    <div id="so-answers"></div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('https://api.stackexchange.com/2.2/users/{your-user-id}/answers?order=desc&sort=activity&site=stackoverflow')
+    .then(response => response.json())
+    .then(data => {
+        const answers = data.items;
+        const answersContainer = document.getElementById('so-answers');
+        answers.forEach(answer => {
+            const answerElement = document.createElement('div');
+            answerElement.innerHTML = `
+                <p>${answer.is_accepted ? '✅' : '❌'} <a href="https://stackoverflow.com/a/${answer.answer_id}" target="_blank">Answer to: ${answer.title}</a></p>
+            `;
+            answersContainer.appendChild(answerElement);
+        });
+    })
+    .catch(error => console.error('Error fetching Stack Overflow data:', error));
+});
+</script> -->
